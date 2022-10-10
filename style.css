@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Styling */
+
+.flex {
+    display: flex;
+}
+
+.align-c {
+    align-items: center;
+}
+
+.justify-c {
+    justify-content: center;
+}
+
+/* Grid */
+
+#grid {
+    display: grid;
+    border: solid 5px black;
+    width: 500px;
+    height: 500px;
+}
+
+.grid-item {
+    border: solid 1px black;
+}
